@@ -16,15 +16,15 @@
           snapshot.forEach(function(data){
               var val = data.val();
               content +='<tr>';
+              content += '<td>' + val.feira + '</td>';
+              content += '<td>' + val.stand + '</td>';
+              content += '<td>' + val.nome + '</td>';
+              content += '<td>' + val.empresa + '</td>';
               content += '<td>' + val.cargo + '</td>';
               content += '<td>' + val.email + '</td>';
-              content += '<td>' + val.empresa + '</td>';
-              content += '<td>' + val.feira + '</td>';
-              content += '<td>' + val.nome + '</td>';
-              content += '<td>' + val.stand + '</td>';
               content += '<td>' + val.telefone + '</td>';
               content += '</tr>';
           });
-          $('#ex-table').append(content);
+          $('#leads').append(content);
       }
   });
