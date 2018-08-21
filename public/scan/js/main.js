@@ -7,7 +7,7 @@ let scanner = new Instascan.Scanner(
 scanner.addListener('scan', function(content){
     let scannedCode = content.split(',');
     writeUserData(scannedCode);
-    console.log("QR Code lido com sucesso!");
+    console.log(scannedCode);
 });
 
 Instascan.Camera.getCameras().then(cameras =>
