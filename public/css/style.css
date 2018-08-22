@@ -52,20 +52,23 @@
 
 .section {
     margin-top: -77px;
+    padding: 0;
 }
 
 .home-img {
     width: 50%;
-    height: 100%;
+    max-height: 100%;
 }
 
 .agencia {
-    position: absolute;
-    margin-top: -400px;
-    margin-left: 404px;
+    position: relative;
+    margin-top: -65%;
+    margin-left: 50%;
+    padding: 10px 30px 3px 30px;
+    text-align: center;
     color: white;
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 4em;    
+    background-color: rgba(255, 255, 255, 0.5);           
+    font-size: 40px;    
     font-weight: 600;
     -webkit-filter: opacity(1px);
     -moz-filter: opacity(1px);
@@ -74,11 +77,45 @@
     filter: opacity(1px);
 }
 
-div.home-img p.agencia {
-    position: absolute;
-    margin-top: -400px;
-    margin-left: 404px;
+.quero-um-evento {
+    position: relative;
+    margin-top: -51.5%;
+    margin-right: 50%;
+    width: 450px;
+    padding: 10px 30px 3px 30px;
+    text-align: center;
     color: white;
-    font-size: 4em;    
+    background-color: rgba(255, 255, 255, 0.5);       
+    font-size: 40px;    
     font-weight: 600;
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
 }
+
+@media (max-width: 510px) {
+    .home-img {
+    }
+  }
+
+@media (max-width: 576px) {
+  }
+  
+  @media (max-width: 900px) {
+    .agencia {
+        margin-top: -60%;    
+        width: 150px;
+        padding: 0 5px;      
+        font-size: 24px; 
+    }
+    .quero-um-evento {
+        margin-top: -51.5%;
+        margin-right: 50%;
+        width: 250px;
+        padding: 0 5px;           
+        font-size: 24px;    
+        font-weight: 600;
+    }
+  }
