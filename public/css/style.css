@@ -1,3 +1,4 @@
+/* Home Agencia */
 .nav {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 15px;
@@ -73,8 +74,9 @@
     -webkit-filter: opacity(1px);
     -moz-filter: opacity(1px);
     -o-filter: opacity(1px);
-    -ms-filter: opacity(1px);
+    -ms-filter: opacity(1px );
     filter: opacity(1px);
+    cursor: pointer;
 }
 
 .quero-um-evento {
@@ -93,15 +95,8 @@
     -o-filter: opacity(1px);
     -ms-filter: opacity(1px);
     filter: opacity(1px);
+    cursor: pointer;
 }
-
-@media (max-width: 510px) {
-    .home-img {
-    }
-  }
-
-@media (max-width: 576px) {
-  }
   
   @media (max-width: 900px) {
     .agencia {
@@ -119,3 +114,37 @@
         font-weight: 600;
     }
   }
+
+  /* Agencia Form */
+
+  .agencia-form {
+    position: relative;
+    margin-top: -100%;
+    margin-left: 50%;
+    padding: 10px 30px 3px 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);           
+    font-size: 40px;    
+    font-weight: 600;
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+.form-agencia {
+    position: relative;
+    margin-top: -87%;
+    margin-right: 50%;
+    width: 500px;
+    padding: 0px 30px 5px 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5); 
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
