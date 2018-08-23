@@ -49,3 +49,12 @@ firebase.database().ref('leads/' + scannedCode[6]).set({
     telefone : scannedCode[6]
 });
 }
+
+$(document).ready (function(){
+    $("#success-alert").hide();
+    scanner.addListener('scan', function showAlert(){ 
+        $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
+       $("#success-alert").slideUp(500);
+        });   
+    });
+});
