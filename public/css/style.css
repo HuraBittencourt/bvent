@@ -175,3 +175,28 @@
     -ms-filter: opacity(1px);
     filter: opacity(1px);
 }
+
+/* briefing.html  */
+
+.content-briefing {
+    background-color: #FFEFEF;
+}
+
+.brief-form {
+    padding: 0 200px;
+}
+
+.content-briefing h1 {
+    color: #FF227A;
+}
+
+.header-pink, .btn-pink {
+    background-color: #FF0C6D;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #FF0C6D;
+    border: solid 1px #FF0C6D;
+}
