@@ -137,8 +137,35 @@
 .form-agencia {
     position: relative;
     margin-top: -87%;
-    margin-right: 50%;
     width: 500px;
+    padding: 0px 30px 5px 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5); 
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+.form-evento {
+    position: relative;
+    margin-top: -87%;
+    padding: 0px 30px 5px 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5); 
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+.form-quero-evento {
+    position: relative;
+    margin-top: -95%;
+    width: 500px;
+    margin-left: 175px;
     padding: 0px 30px 5px 30px;
     color: white;
     background-color: rgba(255, 255, 255, 0.5); 
