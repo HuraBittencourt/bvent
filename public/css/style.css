@@ -200,3 +200,22 @@
     color: #FF0C6D;
     border: solid 1px #FF0C6D;
 }
+
+/* painel agencia */
+
+.bg-card {
+    background-color: #fff;
+}
+
+.card-body div.card-title p {
+    color: #fff;
+    font-weight: 400;
+}
+
+.card-body h2 {
+    color: #FF0C6D;
+}
+
+.card-body p {
+    color: #000;
+}
