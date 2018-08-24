@@ -40,20 +40,45 @@
 
   <section class="section container-fluid">
     <div class="d-flex">
-        <div class="home-img">
-          <img src="img/agencia.png" class="img-fluid">
-          <div class="agencia align-self-end">
-            <a href="/form-agencia.html" style="color: inherit; text-decoration: none !important">
-              <p class="">AGÊNCIA</p>
-            </a>
-          </div>
+      <div class="home-img">
+        <img src="img/agencia.png" class="img-fluid">
+        <div class="agencia-form align-self-end">
+          <p class="">AGÊNCIA</p>
         </div>
+      </div>
       <div class="home-img">
         <img src="img/estande.png" class="img-fluid">
-        <div class="quero-um-evento">
-          <a href="/form-evento.html" style="color: inherit; text-decoration: none !important">
-            <p class="">QUERO UM EVENTO</p>
-          </a>
+        <div class="form-agencia">
+          <form class="pt-4">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nome</label>
+              <input type="nome" class="form-control" id="exampleInputnome" aria-describedby="nomeHelp" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmpresa1">Empresa</label>
+              <input type="empresa" class="form-control" id="exampleInputEmpresa1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">E-mail Corporativo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputCargo1">Cargo</label>
+              <input type="cargo" class="form-control" id="exampleInputCargo1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Confirmar Senha</label>
+              <input type="confirPassword" class="form-control" id="exampleInputConfirmPassowrd1" placeholder="">
+            </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="button">Voltar</button>
+              <button type="button" class="button-border">Cadastrar</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
