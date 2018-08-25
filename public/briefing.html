@@ -39,9 +39,7 @@
       <img class="img-logo" src="img/logo_sem_sloga.png" alt="Bvent - Making your life easier">
     </a>
 
-    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-      <i class="fas fa-bars"></i>
-    </button>
+
 
     <!-- Navbar Search -->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -86,7 +84,7 @@
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
           </div>
           <div class="form-group">
-            <label for="exampleInputEmail1">Aonde acontecerá?</label>
+            <label for="exampleInputEmail1">Onde acontecerá?</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
           </div>
           <div class="form-group">
@@ -98,24 +96,24 @@
             <label class="form-check-label" for="exampleCheck1">Leads</label>
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Vendas</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">Vendas</label>
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Comunicação</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+            <label class="form-check-label" for="exampleCheck3">Comunicação</label>
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Divulgação</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck4">
+            <label class="form-check-label" for="exampleCheck4">Divulgação</label>
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Outros</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck5">
+            <label class="form-check-label" for="exampleCheck5">Outros</label>
           </div>
 
           <div class="form-group">
-            <label for="exampleInputEmail1">Dentro do estando, quais são as necessidades?</label>
+            <label for="exampleInputEmail1">Dentro do stand, quais são as necessidades?</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
           </div>
           <div class="form-group">
@@ -123,7 +121,7 @@
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
           </div>
           <div class="form-group">
-            <label for="exampleInputEmail1">Local do estande no evento (Ex.: A-15)</label>
+            <label for="exampleInputEmail1">Local do stand no evento (Ex.: A-15)</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
           </div>
           <div class="form-group">
@@ -133,41 +131,53 @@
 
           <form>
             <div class="form-group">
-              <label for="exampleFormControlFile1">Deixe aqui fotos que você já fez, ou gosta muito</label>
-              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              <label for="exampleFormControlFile1">Deixe aqui fotos que você já fez ou gosta muito</label>
+              <br>
+              <label class="btn btn-secondary">
+                Escolher arquivo... <input type="file" style="display: none;">
+              </label>
             </div>
           </form>
 
-          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-              Enviar Briefing
+          <button type="button" class="btn btn-secondary mb-5" data-toggle="modal" data-target="#exampleModal">
+            Enviar Briefing
           </button>
         </form>
       </div>
+
+
     </div>
 
     <!--Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header header-pink">
-              <h5 class="modal-title" id="exampleModalLabel">Briefing</h5>
-              <button type="button" class="close close-button" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body text-center">
-              <p>O seu formulário foi enviado com sucesso.</p>
-              <img src="img/ampulheta.png" alt="Ampulheta">
-              <p>Aguarde o contato de nossos parceiros</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-white" data-dismiss="modal">EVENTO</button>
-              <button type="button" class="btn btn-pink">MEUS EVENTOS</button>
-            </div>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header header-pink">
+            <h5 class="modal-title" id="exampleModalLabel">Briefing</h5>
+            <button type="button" class="close close-button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <p>O seu formulário foi enviado com sucesso.</p>
+            <img style="width: 20%" src="img/ampulheta.png" alt="Ampulheta">
+            <p class="mt-3">Aguarde o contato de nossos parceiros</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-white" href="briefing.html" role="button">Novo evento</a>
+            <a class="btn btn-pink" href="listEvents.html" role="button">Meus eventos</a>
           </div>
         </div>
       </div>
-
+    </div>
+    <!-- Sticky Footer -->
+    <footer class="sticky-footer">
+      <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+          <span>Copyright © Bvent 2018</span>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- /.content-wrapper -->

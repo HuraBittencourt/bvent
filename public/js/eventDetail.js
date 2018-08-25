@@ -12,7 +12,7 @@ function getEvent() {
                 if(idEvent == val.idEvents) {
                     $('#days').text(countDays(val.dateEvent));
                     $('#spending').text(val.spending);
-                    $('#getLeads').text("100");
+                    $('#getLeads').text("2");
                 } 
             });
             $('.card-list').append(content);
