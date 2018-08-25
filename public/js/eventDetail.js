@@ -1,23 +1,24 @@
 getEvent();
 
 function getEvent() {
-
-    let idEvent = getUrlParameters();
-    var database = firebase.database();
-    database.ref('events').once('value', function (snapshot) {
-        if (snapshot.exists()) {
-            var content = '';
-            snapshot.forEach(function (data) {
-                var val = data.val();
-                if(idEvent == val.idEvents) {
-                    $('#days').text(countDays(val.dateEvent));
-                    $('#spending').text(val.spending);
-                    $('#getLeads').text("2");
-                } 
-            });
-            $('.card-list').append(content);
-        }
-    });
+    $(document).on('leads-received', function(e, res) {    
+        let idEvent = getUrlParameters();
+        var database = firebase.database();
+        database.ref('events').once('value', function (snapshot) {
+            if (snapshot.exists()) {
+                var content = '';
+                snapshot.forEach(function (data) {
+                    var val = data.val();
+                    if(idEvent == val.idEvents) {
+                        $('#days').text(countDays(val.dateEvent));
+                        $('#spending').text(val.spending);
+                        $('#getLeads').text(res.contagemLeads);
+                    } 
+                });
+                $('.card-list').append(content);
+            }
+        });
+    })
 }
 
 function getUrlParameters() {

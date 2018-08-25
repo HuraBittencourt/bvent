@@ -11,6 +11,9 @@
 
   var database = firebase.database();
   database.ref('leads').once('value', function(snapshot){
+      var contagemLeads = snapshot.numChildren();
+      console.log(contagemLeads);
+      $(document).trigger('leads-received', {contagemLeads});
       if(snapshot.exists()){
           var content = '';
           snapshot.forEach(function(data){
