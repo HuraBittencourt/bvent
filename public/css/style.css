@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Home Agencia */
 .nav {
     background-color: rgba(255, 255, 255, 0.5);
@@ -174,4 +175,226 @@
     -o-filter: opacity(1px);
     -ms-filter: opacity(1px);
     filter: opacity(1px);
+=======
+/* Home Agencia */
+.nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+.nav a img {
+    width: 70px;
+}
+
+.button-border {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid white;
+    width: 90px;
+    color: white;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px;
+    width: 90px;
+    color: white;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.section {
+    margin-top: -77px;
+    padding: 0;
+}
+
+.home-img {
+    width: 50%;
+    max-height: 100%;
+}
+
+.agencia {
+    position: relative;
+    margin-top: -65%;
+    margin-left: 50%;
+    padding: 10px 30px 3px 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);           
+    font-size: 40px;    
+    font-weight: 600;
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px );
+    filter: opacity(1px);
+    cursor: pointer;
+}
+
+.quero-um-evento {
+    position: relative;
+    margin-top: -51.5%;
+    margin-right: 50%;
+    width: 450px;
+    padding: 10px 30px 3px 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);       
+    font-size: 40px;    
+    font-weight: 600;
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+    cursor: pointer;
+}
+  
+  @media (max-width: 900px) {
+    .agencia {
+        margin-top: -60%;    
+        width: 150px;
+        padding: 0 5px;      
+        font-size: 24px; 
+    }
+    .quero-um-evento {
+        margin-top: -51.5%;
+        margin-right: 50%;
+        width: 250px;
+        padding: 0 5px;           
+        font-size: 24px;    
+        font-weight: 600;
+    }
+  }
+
+  /* Agencia Form */
+
+  .agencia-form {
+    position: relative;
+    margin-top: -100%;
+    margin-left: 50%;
+    padding: 10px 30px 3px 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);           
+    font-size: 40px;    
+    font-weight: 600;
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+.form-agencia {
+    position: relative;
+    margin-top: -87%;
+    width: 500px;
+    padding: 0px 30px 5px 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5); 
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+.form-evento {
+    position: relative;
+    margin-top: -87%;
+    padding: 0px 30px 5px 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5); 
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+.form-quero-evento {
+    position: relative;
+    margin-top: -95%;
+    width: 500px;
+    margin-left: 175px;
+    padding: 0px 30px 5px 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5); 
+    -webkit-filter: opacity(1px);
+    -moz-filter: opacity(1px);
+    -o-filter: opacity(1px);
+    -ms-filter: opacity(1px);
+    filter: opacity(1px);
+}
+
+/* briefing.html  */
+
+.content-briefing {
+    background-color: #FFEFEF;
+}
+
+.brief-form {
+    padding: 0 200px;
+}
+
+.content-briefing h1 {
+    color: #FF227A;
+}
+
+.header-pink, .btn-pink {
+    background-color: #FF0C6D;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #FF0C6D;
+    border: solid 1px #FF0C6D;
+}
+
+/* painel agencia */
+
+.bg-card {
+    background-color: #fff;
+}
+
+.card-body div.card-title p {
+    color: #fff;
+    font-weight: 400;
+}
+
+.card-body h2 {
+    color: #FF0C6D;
+}
+
+.card-body p {
+    color: #000;
+>>>>>>> ddc5482f4731b470a6d207e20af130ddc2d594c6
 }
